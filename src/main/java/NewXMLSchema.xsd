@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  elementFormDefault="qualified" attributeFormDefault="unqualified" >
+ <xsd:element name="root">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="valid" type="xsd:boolean" />
+        <xsd:element name="message" type="xsd:string" />
+        <xsd:element name="configurations">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="message" type="xsd:string" />
+              <xsd:element name="instance">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="name" type="xsd:string" />
+                    <xsd:element name="message" type="xsd:string" />
+                    <xsd:element name="destination">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="name" type="xsd:string" />
+                          <xsd:element name="message" type="xsd:string" />
+                          <xsd:element name="dutype">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="name" type="xsd:string" />
+                                <xsd:element name="message" type="xsd:string" />
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="readids">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="hasreadaccess" type="xsd:string" />
+              <xsd:element name="noreadaccess" type="xsd:string" />
+              <xsd:element name="notvalid" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="writeids">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="haswriteaccess" type="xsd:string" />
+              <xsd:element name="nowriteaccess" type="xsd:string" />
+              <xsd:element name="notvalid" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

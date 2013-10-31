@@ -1,0 +1,31 @@
+{
+  "root": {
+    "valid": "false",
+    "message": "msg",
+    "configurations": {
+      "message": "msg",
+      "instance": {
+        "name": "up",
+        "message": "mas",
+        "destination": {
+          "name": "que",
+          "message": "msg",
+          "dutype": {
+            "name": "eeb",
+            "message": "adf"
+          }
+        }
+      }
+    },
+    "readids": {
+      "hasreadaccess": "a,a,a",
+      "noreadaccess": "r,r,t",
+      "notvalid": "w,e.y"
+    },
+    "writeids": {
+      "haswriteaccess": "s,e,r",
+      "nowriteaccess": "v,e,r",
+      "notvalid": "m,e,r"
+    }
+  }
+}

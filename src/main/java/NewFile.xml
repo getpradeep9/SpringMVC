@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<valid>false</valid>
+<message>msg</message>
+	<configurations>
+	<message>msg</message>
+	<instance>
+	<name>up</name>
+	<message>mas</message>
+		<destination>
+		<name>que</name>
+		<message>msg</message>
+			<dutype>
+			<name>eeb</name>
+			<message>adf</message>
+			</dutype>
+		</destination>
+	</instance>
+	</configurations>
+	
+	<readids>
+	<hasreadaccess>a,a,a</hasreadaccess>
+	<noreadaccess>r,r,t</noreadaccess>
+	<notvalid>w,e.y</notvalid>
+	</readids>
+	<writeids>
+	<haswriteaccess>s,e,r</haswriteaccess>
+	<nowriteaccess>v,e,r</nowriteaccess>
+	<notvalid>m,e,r</notvalid>
+	</writeids>
+	
+</root>
