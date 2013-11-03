@@ -9,7 +9,9 @@
 
 	<!-- Shared version number properties -->
 	<properties>
-		<!--<org.springframework.version>3.0.5.RELEASE</org.springframework.version> -->
+		<!--
+		<org.springframework.version>3.0.5.RELEASE</org.springframework.version>
+		-->
 		<org.springframework.version>3.2.0.RELEASE</org.springframework.version>
 	</properties>
 
