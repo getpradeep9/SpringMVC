@@ -19,14 +19,10 @@ public class Tl {
 		AbstractApplicationContext xt=new ClassPathXmlApplicationContext("beanContext.xml");
 		
 		/*ApplicationContext xt=new ClassPathXmlApplicationContext("beanContext.xml");
-			
-			Account act=(Account)xt.getBean("act");
-			
-			System.out.println(act.name);
-			
-			System.out.println(act.getAddrList());
-			
-			xt.registerShutdownHook();*/
+		Account act=(Account)xt.getBean("act");
+		System.out.println(act.name);
+		System.out.println(act.getAddrList());
+		xt.registerShutdownHook();*/
 		
 		
 		Act act=(Act)xt.getBean("acct");
