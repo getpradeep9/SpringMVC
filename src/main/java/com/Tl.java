@@ -16,9 +16,10 @@ public class Tl {
 	  
 
 		AbstractApplicationContext xt=new ClassPathXmlApplicationContext("beanContext.xml");
-		//ApplicationContext xt=new ClassPathXmlApplicationContext("beanContext.xml");
+		
+		/*ApplicationContext xt=new ClassPathXmlApplicationContext("beanContext.xml");
 			
-			/*Account act=(Account)xt.getBean("act");
+			Account act=(Account)xt.getBean("act");
 			
 			System.out.println(act.name);
 			
