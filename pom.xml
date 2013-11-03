@@ -16,7 +16,9 @@
 	</properties>
 
 	
-	<!-- Dependencies starts here YEs remote-->
+	<!--
+	Dependencies starts here YEs remote
+	-->
 	<dependencies>
 
 		<dependency>
