@@ -16,5 +16,6 @@
 	<bean class="com.emc.aop.pointcut.CalPointCut" />
 
 	<bean id="cal" class="com.emc.aop.impl.CalculatorImpl"></bean>
+	
 
 </beans>
