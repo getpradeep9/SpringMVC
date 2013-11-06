@@ -7,7 +7,9 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>maven2example_webapp Maven Webapp</name>
 
-	<!-- Shared version number properties -->
+	<!-- 
+	Shared version number properties 
+	-->
 	<properties>
 		<!--
 		Changed locally and commited
