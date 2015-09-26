@@ -9,5 +9,7 @@ local changes
 remote changes
 COMMITED FROM ECLIPSE
 confused
-hotfix done
+
 b1 modifications done
+
+B2 modifications done
