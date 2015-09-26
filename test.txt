@@ -8,3 +8,4 @@ head moved
 local changes
 remote changes
 COMMITED FROM ECLIPSE
+confused
