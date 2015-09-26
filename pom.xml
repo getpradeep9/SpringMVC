@@ -12,7 +12,7 @@
 	-->
 	<properties>
 		<!--
-		Changed locally and commited by Sreenu then pradeep
+		Changed locally and commited by Sreenu then pradeep and Hari
 		<org.springframework.version>3.0.5.RELEASE</org.springframework.version>
 		-->
 		<org.springframework.version>3.2.5.RELEASE</org.springframework.version>
