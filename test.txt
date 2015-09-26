@@ -10,3 +10,4 @@ remote changes
 COMMITED FROM ECLIPSE
 confused
 hotfix done
+b2 modifications done
